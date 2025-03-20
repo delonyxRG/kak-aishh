@@ -658,6 +658,7 @@ window.addEventListener('resize', adjustGiftBoxAlignment);
 window.addEventListener('load', adjustGiftBoxAlignment);
 
 window.addEventListener('resize', () => {
+  
   adjustForMobile();
   adjustCanvasText();
 });
