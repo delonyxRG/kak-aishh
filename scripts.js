@@ -1,3 +1,4 @@
+
 const count = document.getElementById('count');
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
@@ -658,7 +659,6 @@ window.addEventListener('resize', adjustGiftBoxAlignment);
 window.addEventListener('load', adjustGiftBoxAlignment);
 
 window.addEventListener('resize', () => {
-  
   adjustForMobile();
   adjustCanvasText();
 });
@@ -670,4 +670,3 @@ window.addEventListener('load', () => {
 
 window.addEventListener('resize', adjustPostGiftBoxContent);
 window.addEventListener('load', adjustPostGiftBoxContent);
-
